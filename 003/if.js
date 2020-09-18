@@ -1,10 +1,32 @@
+
+// задание 2
+// let y = 1; let x = y = 2; 
+// console.log(0 || "" || 2 || undefined || true || falsе);
+
+
+// let a = [1, 2, 3],
+//      b = [1, 2, 3];
+
+//      if (a == b) {
+//         console.log("Равны")
+//      } else {
+//          console.log("Не равны")
+//      }
+
+
+
+
+
+
+
+
 // if (2*3 == 8) {
 //     console.log("Верно")
 // } else {
 //     console.log("Неверно")
 // }
 
-let num = 50;
+
 
 if (num < 49) {
     console.log("Нет!")
@@ -35,3 +57,25 @@ switch(num) {
         break;
 
 } 
+
+let num = 50;
+
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+// }
+
+do {
+    console.log(num);
+    num++;
+}
+while (num < 55)
+
+for (let i = 1; i < 8; i++) {
+    if (i == 6) {
+        continue   // или break
+    }
+    console.log(i)
+}
+
+
